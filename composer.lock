@@ -1,0 +1,36 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eb7b95f5a2fb3bb59689e8234f355068",
+    "packages": [],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-curl": "*",
+        "ext-bz2": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "ext-gettext": "*",
+        "ext-gmp": "*",
+        "ext-imap": "*",
+        "ext-mbstring": "*",
+        "ext-exif": "*",
+        "ext-openssl": "*",
+        "ext-pdo_mysql": "*",
+        "ext-pdo_sqlite": "*",
+        "ext-soap": "*",
+        "ext-sockets": "*",
+        "ext-sqlite3": "*",
+        "ext-xmlrpc": "*",
+        "ext-xsl": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

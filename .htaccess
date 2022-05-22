@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^/portfolio/([0-9]+)/?$ ?$page=$ [NC,l]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)$ $portfolio.php [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)$ $1.html [NC,L]
+
